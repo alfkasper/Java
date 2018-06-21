@@ -4,6 +4,8 @@ public class Retailer {
 
 	private int taxes_in_percent = 10;
 
+	// Master - Added comment
+	
 	public int getPriceForProduct(String productId) throws Exception {
 		int price;
 		if (productId.equals("101")) {
@@ -25,5 +27,10 @@ public class Retailer {
 
 	public int getTaxRate() {
 		return taxes_in_percent;
+	}
+	
+	public String myTaxRate() {
+		return "10%";
+		// THis is the LR1 Change
 	}
 }

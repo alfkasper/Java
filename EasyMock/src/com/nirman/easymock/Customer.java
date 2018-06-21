@@ -2,6 +2,7 @@ package com.nirman.easymock;
 
 public class Customer {
 
+	// Master - Added comment
 	String name;
 	Retailer retailer;
 
